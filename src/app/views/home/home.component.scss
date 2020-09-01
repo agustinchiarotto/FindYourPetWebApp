@@ -1,0 +1,31 @@
+h1 {
+  color: #1f4679;
+  max-width: 60%;
+  font-size: 3rem;
+  line-height: 50px;
+}
+p {
+  max-width: 50%;
+}
+@media (max-width: 599px) {
+  h1 {
+    margin-top: 3rem;
+    max-width: 100%;
+    font-size: 2rem;
+  }
+  p {
+    max-width: 80%;
+  }
+  img {
+    object-fit: contain;
+  }
+  #img1 {
+    max-height: 325px;
+  }
+  #img2 {
+    max-height: 368px;
+  }
+  #img3 {
+    max-height: 456px;
+  }
+}

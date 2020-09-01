@@ -1,0 +1,42 @@
+.barra {
+  height: 65px;
+}
+.barrita {
+  height: 20px;
+}
+.miss {
+  p {
+    color: #1f4679 !important;
+  }
+}
+p {
+  color: white;
+}
+agm-map {
+  height: 100%;
+}
+
+.map-button {
+  position: absolute;
+  z-index: 1;
+  right: 5px;
+  margin-top: 5px;
+  background-color: #ffffff52 !important;
+}
+
+.mat-stroked-button {
+  border-color: white !important;
+  color: white;
+}
+
+@media (max-width: 599px) {
+  agm-map {
+    height: 87vh;
+  }
+  .miss {
+    margin: auto;
+    div {
+      width: 100%;
+    }
+  }
+}

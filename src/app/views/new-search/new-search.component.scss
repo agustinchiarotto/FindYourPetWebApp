@@ -1,0 +1,27 @@
+h3 {
+  color: white;
+}
+input[type='file'] {
+  display: none;
+}
+.barra {
+  height: 65px;
+}
+.mat-stroked-button {
+  border-color: white !important;
+  color: white;
+}
+
+.mat-form-field {
+  width: 45%;
+}
+
+agm-map {
+  height: 500px;
+}
+
+@media (max-width: 599px) {
+  agm-map {
+    height: 80vh;
+  }
+}
